@@ -63,7 +63,7 @@ def build_pollen_mesh(cfg: dict, n_lat: int = 220, n_lon: int = 220):
     sculpture_mask = np.ones_like(X)  # Atenúa el retículo dentro del poro
 
     for p_ang in pore_angles:
-        #Posición 3D del centro de cada poro en el ecuador
+        # Posición 3D del centro de cada poro en el ecuador
         px = a * np.cos(p_ang)
         py = b * np.sin(p_ang)
         pz = 0.0

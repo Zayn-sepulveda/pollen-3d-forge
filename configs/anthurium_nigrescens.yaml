@@ -1,40 +1,17 @@
-metadata:
-  taxon: "Anthurium nigrescens Engl."
-  family: "Araceae"
-  reference: "Mercado-Gómez et al. (2015) Actualidades Biológicas 37(103): 185–200"
-  doi: "10.17533/udea.acbi.v37n103a07"
-  specimen: "Jorge Mercado 345 (HUA), P. U de A 1.213"
-  units: "micrometers"
+species: "Anthurium nigrescens Engl."
+family: "Araceae"
 
 biometrics:
-  polar_axis: 19.2
-  polar_axis_sd: 1.61
-  equatorial_axis: 22.2
-  equatorial_axis_sd: 1.00
+  polar_axis_P: 19.2
+  equatorial_axis_E: 22.2
   pe_ratio: 0.86
-  shape_class: "suboblate"
-  symmetry: "isopolar_radial"
+  shape_class: "Suboblada"
 
 apertures:
-  type: "porate"
+  type: "Zonoaperturado"
   count: 3
-  distribution: "zonoaperturate"
-  pore_diameter: 2.0
-  pore_diameter_sd: 1.00
-  margin_width: 0.4
+  diameter_um: 2.0
 
-sporoderm:
-  total_exine_thickness: 2.0
-  total_exine_sd: 0.10
-  nexine_thickness: 1.0
-  bacula_height: 0.6
-  tectum_thickness: 0.4
-  wall_type: "tectate"
-
-sculpture:
-  type: "microreticulate"
-  brochate: "homobrochate"
-  lumen_diameter: 0.7
-  muri_width: 0.3
-  relief_height: 0.3
-  dispersal_unit: "monad"
+exine:
+  sculpture: "Microrreticulada homobrocada"
+  thickness_um: 2.0
